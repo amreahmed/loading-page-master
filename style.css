@@ -38,18 +38,20 @@ body {
 }
 
 #svg {
-  height: 150px;
-  width: 150px;
+  height: 300px;
+  width: 300px;
   stroke: white;
   fill-opacity: 0;
   stroke-width: 3px;
-  stroke-dasharray: 4500;
+  margin-top: 40px;
+  stroke-dasharray: 1560;
+  margin-bottom: -50px;
   animation: draw 8s ease;
 }
 
 @keyframes draw {
   0% {
-    stroke-dashoffset: 4500;
+    stroke-dashoffset: 1560;
   }
   100% {
     stroke-dashoffset: 0;
@@ -68,4 +70,8 @@ body {
   text-transform: uppercase;
   margin-left: 20px;
   font-weight: bolder;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  
 }
